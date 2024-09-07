@@ -4,7 +4,7 @@ const buttonClass =
 	"rounded-full border border-solid border-black/[.2] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44";
 
 const BLOG_URL = "https://blog.erons.xyz";
-const TICK_STUDIO_URL = "https://tickstudio.io";
+const TICK_URL = "https://tickhq.com";
 
 export default function Home() {
 	return (
@@ -19,16 +19,16 @@ export default function Home() {
 							Science.{" "}
 						</p>
 						<p>
-							On the side, I work on{" "}
+							When I&apos;m not working for my employer, I work on{" "}
 							<a
-								href={TICK_STUDIO_URL}
+								href={TICK_URL}
 								target="_blank"
 								rel="noopener noreferrer"
 								className="text-blue-700 font-semibold hover:underline hover:underline-offset-2"
 							>
-								Tick Studio
+								Tick
 							</a>
-							, a Product Studio I&apos;m building alone.
+							, a Software Product I&apos;m building alone.
 						</p>
 						<p>
 							Currently, in my free time, I like to dabble in AI & Cognitive
@@ -41,19 +41,19 @@ export default function Home() {
 				<div className="flex gap-4 items-center justify-center w-full">
 					<a
 						className={buttonClass}
-						href={TICK_STUDIO_URL}
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Product Studio
-					</a>
-					<a
-						className={buttonClass}
 						href={BLOG_URL}
 						target="_blank"
 						rel="noopener noreferrer"
 					>
 						Blog
+					</a>
+					<a
+						className={buttonClass}
+						href={TICK_URL}
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						Checkout Tick!
 					</a>
 				</div>
 			</main>
