@@ -35,10 +35,6 @@ export default function Home() {
 							Science with free resources online - open courses, books, papers,
 							etc.
 						</p>
-						<p>
-							In the past, I&apos;ve been interested in Astrophysics,
-							Blockchain, and Anthropology.
-						</p>
 					</div>
 				</div>
 
