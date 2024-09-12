@@ -31,7 +31,7 @@ export default function Home() {
 							, a Software Product I&apos;m building alone.
 						</p>
 						<p>
-							Currently, in my free time, I like to dabble in AI & Cognitive
+							Currently, in my free time, I like to dabble in ML, DL & Cognitive
 							Science with free resources online - open courses, books, papers,
 							etc.
 						</p>
@@ -84,7 +84,7 @@ export default function Home() {
 				</a>
 				<a
 					className={footerLinkClass}
-					href="mailto:erons@erons.xyz"
+					href="mailto:yo@erons.xyz"
 					target="_blank"
 					rel="noopener noreferrer"
 				>
